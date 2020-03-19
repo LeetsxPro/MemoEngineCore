@@ -5,6 +5,18 @@ VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoEngineCore", "MemoEngineCore\MemoEngineCore.csproj", "{B284090D-A9AF-44B2-9980-A15C36D03C62}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspNetCoreBook", "AspNetCoreBook", "{EC193C16-06BA-4569-AC75-914AF35F8DCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_VisualStudio", "01_VisualStudio", "{585A52D1-6DAF-41D5-AB9E-45CA8A56C6ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorldNetcore", "MemoEngineCore\HelloWorldNetcore\HelloWorldNetcore.csproj", "{AC0E4357-DD1D-46DD-ADF9-DE8BF319CB60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorldNetCoreWithCode", "MemoEngineCore\HelloWorldNetCoreWithCode\HelloWorldNetCoreWithCode.csproj", "{8FC6B35C-AD84-406E-9979-C63863185E05}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HelloWorldNetFramework", "MemoEngineCore\HelloWorldNetFramework\HelloWorldNetFramework.vbproj", "{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_AspNet", "02_AspNet", "{714B15FA-4E8B-49B4-BD87-436B46CC074D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +27,28 @@ Global
 		{B284090D-A9AF-44B2-9980-A15C36D03C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B284090D-A9AF-44B2-9980-A15C36D03C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B284090D-A9AF-44B2-9980-A15C36D03C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC0E4357-DD1D-46DD-ADF9-DE8BF319CB60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0E4357-DD1D-46DD-ADF9-DE8BF319CB60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0E4357-DD1D-46DD-ADF9-DE8BF319CB60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0E4357-DD1D-46DD-ADF9-DE8BF319CB60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC6B35C-AD84-406E-9979-C63863185E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC6B35C-AD84-406E-9979-C63863185E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC6B35C-AD84-406E-9979-C63863185E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC6B35C-AD84-406E-9979-C63863185E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{585A52D1-6DAF-41D5-AB9E-45CA8A56C6ED} = {EC193C16-06BA-4569-AC75-914AF35F8DCC}
+		{AC0E4357-DD1D-46DD-ADF9-DE8BF319CB60} = {585A52D1-6DAF-41D5-AB9E-45CA8A56C6ED}
+		{8FC6B35C-AD84-406E-9979-C63863185E05} = {585A52D1-6DAF-41D5-AB9E-45CA8A56C6ED}
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7} = {585A52D1-6DAF-41D5-AB9E-45CA8A56C6ED}
+		{714B15FA-4E8B-49B4-BD87-436B46CC074D} = {EC193C16-06BA-4569-AC75-914AF35F8DCC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E0105043-A8A9-4D85-A07C-BF9864B41EFC}
